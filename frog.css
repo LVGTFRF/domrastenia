@@ -1,0 +1,137 @@
+header{ 
+    text-align: center;
+    grid-area: my_header;
+    background-color:rgb(109, 168, 109);
+    border:2px solid rgb(121, 173, 121);
+    display: grid;
+    grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;
+    font-weight: 100;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 12;
+} 
+header div{
+    border: 1px solid rgb(144, 206, 144);
+}
+@font-face {
+    font-family:"klor";
+    src: url("dewberry-bold.ttf");
+}
+#text1{
+    font-family:klor;
+}
+@font-face {
+    font-family:"nlor";
+    src: url("ofont.ru_Cruinn.ttf");
+}
+@font-face {
+    font-family:prig;
+    src:url("ofont.ru_Patsy\ Sans.otf");
+}
+#text15{
+    font-family:prig;
+}
+
+@font-face {
+    font-family:erig;
+    src:url("ofont.ru_Patsy\ Sans.otf");
+}
+#text16{
+    font-family:erig;
+}n-box{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 65vh 35vh;
+}
+.green-box{
+    background-color: rgb(144, 206, 144);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-size: 70px;
+    padding-top: 5%;
+    width:100% ;
+}
+.green-box img{
+    width: 100%;
+    height:auto;
+    z-index: 2;
+}
+.container{
+    display: flex;
+    width: 55%;
+    height: 70%;
+    justify-content: space-around;
+    position: relative;
+    top:-10em;
+    z-index: 3;
+}
+ .container img{
+    width: 30%;
+    height:100%;
+}
+.white-box{
+    background-color: white;
+}
+header div p{
+    font-family: "nlor";
+}
+footer{
+    height: 20vh;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+
+}
+.social img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10%;
+}
+#text15{
+    font-size:200%;
+}
+#text16{
+    font-size: 140%;
+}
+.main2{
+    margin-top: 150px;
+    font-size: large;
+}
+.main2 img{
+    width: 60%;
+    height: 50%;
+}
+
+.main3 img{
+    width: 60%;
+    height: 50%;
+}
+.main3{
+    margin-top: 150px;
+    font-size: large;
+}
+
+.main4 img{
+    width: 60%;
+    height: 50%;
+}
+.main4{
+    margin-top: 150px;
+    font-size: large;
+}
+.main5 img{
+    width: 60%;
+    height: 50%;
+}
+.main5{
+    margin-top: 150px;
+    font-size: large;
+}
